@@ -1,0 +1,78 @@
+{
+    "thing": { 
+        "iot_resource" : {
+            "device_entity" : { 
+                "device_id" : "number",
+                "dimension" : "number",
+                "device_name" : "string",
+                "color" : "string",
+                "manufacturer" : "string",
+                "model" : "string",
+                "commn_interface": "wifi,bluetooth",
+                "weight" : "number",
+                "material" : "string",
+                "connectors" : "usb,serial",
+                "power" : "AC,DC",
+                "compatible_devices" : "string",
+                "mounting_type" : "string",
+                "processor" : "string"
+            },
+            "application_entity": {
+                "platform" : "string",
+                "user_applications" : "string",
+                "operating_condition" : "range-in-celsius",
+                "location" : {
+                    "longitude" : "number",
+                    "latitude" : "number"
+                },
+                "requirements" : "string"
+            },
+            "service_entity" : {
+                "services":  [ 
+                    {
+                        "name": "Get_temperature",
+                        "qos" : {
+                            "temp_range" : "range-in-celsius",
+                            "humidity" : "range",
+                            "accuracy" : "range",
+                            "measurment_period" : "number-in-seconds",
+                            "drift" : "number",
+                            "lifetime" : "number",
+                            "battery_lifetime" : "number",
+                            "supported_formats" : "string"
+                        },
+                        "service_id" : "number"
+                    },
+                    {
+                        "name": "Capture_image",
+                        "qos": {
+                            "resolution" : "number-in-mpixels",
+                            "field_view" : "number",
+                            "video_recording_frame_rate" : "number",
+                            "video_recording_resolution" : "number",
+                            "battery_lifetime" : "number",
+                            "supported_formats" : "string",
+                            "zoom" : "number",
+                            "video_modes": "number"
+                        },
+                        "service_id" : "number"
+                    },
+                    {
+                        "name" : "Generate_sound",
+                        "qos": {
+                            "loudness": "number",
+                            "battery_lifetime" : "number"
+                        }
+                    },
+                    {
+                        "name" : "Capture_sound",
+                        "qos": {
+                            "loudness": "number",
+                            "battery_lifetime" : "number"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

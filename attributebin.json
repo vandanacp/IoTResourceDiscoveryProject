@@ -1,0 +1,11 @@
+{
+    "device": {
+        "words" : "id, weight, height, battery, connections, wireless, color, model, manufacture"
+    },
+    "application": {
+        "words" : "platform, applications, requirements, system, deployment, mounting"
+    },
+    "qos": {
+        "words": "precision, accuracy, humidity, view"
+    }
+}

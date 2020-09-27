@@ -1,0 +1,323 @@
+[
+    {
+        "match": [
+            {
+                "result": [
+                    {
+                        "word": [
+                            "humidity"
+                        ],
+                        "value": "[(13, 1.0), (24, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestProtect.spec",
+                "representative": false
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "humidity"
+                        ],
+                        "value": "[(13, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestLearningThermostat.spec",
+                "representative": false
+            }
+        ],
+        "service_type": "Get_temperature"
+    },
+    {
+        "match": [],
+        "service_type": "Detect_load"
+    },
+    {
+        "match": [],
+        "service_type": "Detect_capacitive_touch"
+    },
+    {
+        "match": [
+            {
+                "result": [
+                    {
+                        "word": [
+                            "light"
+                        ],
+                        "value": "[(13, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestProtect.spec",
+                "representative": false
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "light"
+                        ],
+                        "value": "[(23, 1.0), (25, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestHelloDoorbell.spec",
+                "representative": false
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "camera"
+                        ],
+                        "value": "[(19, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestHubMax.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "light"
+                        ],
+                        "value": "[(21, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleHomeMax.spec",
+                "representative": false
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "light"
+                        ],
+                        "value": "[(21, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleHome.spec",
+                "representative": false
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "light"
+                        ],
+                        "value": "[(19, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestHub.spec",
+                "representative": false
+            }
+        ],
+        "service_type": "Capture_image"
+    },
+    {
+        "match": [
+            {
+                "result": [
+                    {
+                        "word": [
+                            "microphone"
+                        ],
+                        "value": "[(13, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestProtect.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "microphone"
+                        ],
+                        "value": "[(21, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestHelloDoorbell.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "microphone"
+                        ],
+                        "value": "[(23, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestCamIndoor.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "microphone"
+                        ],
+                        "value": "[(19, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestHubMax.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "voice"
+                        ],
+                        "value": "[(17, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleHome1stgen.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "voice"
+                        ],
+                        "value": "[(15, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestMini.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "voice"
+                        ],
+                        "value": "[(19, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestMini1stGen.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "voice"
+                        ],
+                        "value": "[(19, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleHome.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "voice"
+                        ],
+                        "value": "[(19, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestHub.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "microphone"
+                        ],
+                        "value": "[(29, 1.0)]"
+                    }
+                ],
+                "filename": "ArloUltraCamera.spec",
+                "representative": true
+            }
+        ],
+        "service_type": "Capture_sound"
+    },
+    {
+        "match": [
+            {
+                "result": [
+                    {
+                        "word": [
+                            "security"
+                        ],
+                        "value": "[(27, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestYlock.spec",
+                "representative": true
+            }
+        ],
+        "service_type": "Lock_unlock"
+    },
+    {
+        "match": [],
+        "service_type": "Detect_motion"
+    },
+    {
+        "match": [],
+        "service_type": "Detect_gas"
+    },
+    {
+        "match": [],
+        "service_type": "Get_scan"
+    },
+    {
+        "match": [
+            {
+                "result": [
+                    {
+                        "word": [
+                            "talking"
+                        ],
+                        "value": "[(9, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleNestYlock.spec",
+                "representative": false
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "audio"
+                        ],
+                        "value": "[(25, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleHomeMax.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "audio"
+                        ],
+                        "value": "[(17, 1.0)]"
+                    }
+                ],
+                "filename": "GoogleHome1stgen.spec",
+                "representative": true
+            },
+            {
+                "result": [
+                    {
+                        "word": [
+                            "audio"
+                        ],
+                        "value": "[(31, 1.0)]"
+                    }
+                ],
+                "filename": "ArloUltraCamera.spec",
+                "representative": true
+            }
+        ],
+        "service_type": "Generate_sound"
+    }
+]

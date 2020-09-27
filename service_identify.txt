@@ -1,0 +1,18 @@
+# format (service type : representative terms : relative terms ) 
+Get_temperature : thermostat: humidity, temp measure, energy monitor
+Detect_load: load sensor : 
+Detect_capacitive_touch: capactive, contact, touch control : 
+Detect_smoke: split spectrum smoke detector
+Get_humidity: humidity, RH
+Detect_co: co2, air, air quality, carbon monoxide
+Capture_image: camera, image sensor, resoulution : video, frame rate, frames/sec, light
+Capture_sound: microphone, voice, mic, dual array : far field, input chine, noice, woofer
+Lock_unlock: door lock, security, smart lock : AES/TLS SSL, key
+Detect_motion :  orientation sensor, motion detector, degree horizontal vertical : Accelerometer
+Detect_gas : leak detecter, gas chemical, halogen, gas senser : refrigerent, sensitivity
+Emit_light: ambient light sensor, optical, rbg, 
+Emit_LED_light : Led light, led keybad, night vision 
+Get_print :  ppm, print speed
+Get_scan : ppm, print speed, printer, inkjet, laser, ddp, toner : quality, print resolution 
+Generate_sound : Speaker, loudness, audio, siren, fullduplex : talking, bluetooth voice control, sonic
+Detect_object : passive infrared, senser detect, distance, meter, centimeter

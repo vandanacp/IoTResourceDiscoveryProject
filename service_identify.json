@@ -1,0 +1,52 @@
+[
+    {
+        "service type": "Get_temperature",
+        "representative terms": "thermostat",
+        "indirect terms": "humidity, temp measure, energy monitor"
+    },
+    {
+        "service type": "Detect_load",
+        "representative terms": "load sensor",
+        "indirect terms": ""
+    },
+    {
+        "service type": "Detect_capacitive_touch",
+        "representative terms": "capactive, contact, touch control",
+        "indirect terms": ""
+    },
+    {
+        "service type": "Capture_image",
+        "representative terms": "camera, image sensor, resoulution",
+        "indirect terms": "video, frame rate, frames/sec, light"
+    },
+    {
+        "service type": "Capture_sound",
+        "representative terms": "microphone, voice, mic, dual array",
+        "indirect terms": "far field, input chine, noice, woofer"
+    },
+    {
+        "service type": "Lock_unlock",
+        "representative terms": "door lock, security, smart lock",
+        "indirect terms": "AES/TLS SSL, key"
+    },
+    {
+        "service type": "Detect_motion",
+        "representative terms": "orientation sensor, motion detector, degree horizontal vertical",
+        "indirect terms": "Accelerometer"
+    },
+    {
+        "service type": "Detect_gas",
+        "representative terms": "leak detecter, gas chemical, halogen, gas senser",
+        "indirect terms": "refrigerent, sensitivity"
+    },
+    {
+        "service type": "Get_scan",
+        "representative terms": "ppm, print speed, printer, inkjet, laser, ddp, toner",
+        "indirect terms": "quality, print resolution"
+    },
+    {
+        "service type": "Generate_sound",
+        "representative terms": "Speaker, loudness, audio, siren, fullduplex",
+        "indirect terms": "talking, bluetooth voice control, sonic"
+    }
+]
